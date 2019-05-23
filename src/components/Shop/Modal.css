@@ -1,0 +1,21 @@
+
+#modal {
+  background: white;
+  height: 650px;
+  width: 250;
+  box-shadow: 10px 10px 8px #888888; 
+
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	letter-spacing: 1.12px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.20px;
+}

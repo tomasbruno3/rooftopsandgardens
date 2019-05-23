@@ -1,0 +1,24 @@
+
+
+.button-viewcart > a {
+	background-color: #c59d5f;
+	display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+	color: white;
+	font-size: 14px;
+	padding: 13px 20px;
+	letter-spacing: 0.52px;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+		font-weight: 500;
+	}

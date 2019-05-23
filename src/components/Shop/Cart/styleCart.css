@@ -1,0 +1,54 @@
+.product-item{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+
+.product-price{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #bb9356;
+}
+
+.cart-icon {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.text-uppercase{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.buttonCount{
+  color: #bb9356;
+  width: 20px;
+  height: 20px;
+
+}
+
+.countNumber {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+
+}
+
+
+.stripeButton {
+  text-align: center;
+  float: right;
+  margin-right: 80px;
+}
