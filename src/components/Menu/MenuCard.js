@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-
-
 class MenuCard extends Component {
 
   state = {
@@ -35,7 +33,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>Cheese Variete <span> Selection of wide range of local cheese</span></h3>
+              <h3>Un Cheese Variete <span> Selection of wide range of local cheese</span></h3>
 
             </div>
           </div>
@@ -45,7 +43,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>Empandas Criollas <span> North Argentinan style Empanaditas</span></h3>
+              <h3>Las Empandas Criollas <span> North Argentinan style Empanaditas</span></h3>
 
             </div>
           </div>
@@ -55,7 +53,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>Chorizo de campo <span> Chorizo chilly with field bread</span></h3>
+              <h3>El Chorizo de campo <span> Chorizo chilly with field bread</span></h3>
 
             </div>
           </div>
@@ -65,7 +63,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>Morzilla Ahumada <span> Morzillas cooked with red quebracho </span></h3>
+              <h3>La Morzilla Ahumada <span> Morzillas cooked with red quebracho </span></h3>
 
             </div>
           </div>
@@ -75,7 +73,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>La Tira <span> The first choice of ´El Gaucho´ </span></h3>
+              <h3>La Tira Especial <span> The first choice of ´El Gaucho´ </span></h3>
 
             </div>
           </div>
@@ -85,7 +83,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>El Lomo<span> The meet of the Gods</span></h3>
+              <h3>El Lomo De Dios<span> The meet of the Gods</span></h3>
 
             </div>
           </div>
@@ -95,7 +93,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>El Vacio<span> The meet of the Lords</span></h3>
+              <h3>El Vacio Espacial<span> The meet of the Lords</span></h3>
 
             </div>
           </div>
@@ -105,7 +103,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>La Entraña<span> The meet of the Queens</span></h3>
+              <h3>La Entraña Sagrada <span> The meet of the Queens</span></h3>
 
             </div>
           </div>
@@ -115,7 +113,7 @@ render () {
               <div className="item-thumb">
                 <i><img src="assets/images/LogoIcon.png" alt="Menu" /></i>
               </div>
-              <h3>Tortas Fritas <span> Deliciosas tortitas fritas rellenas de membrillo</span></h3>
+              <h3>Las Tortas Fritas <span> Deliciosas tortitas fritas rellenas de membrillo</span></h3>
 
             </div>
           </div>

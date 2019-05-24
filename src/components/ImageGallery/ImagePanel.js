@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-
 import Rodal from 'rodal';
-import "@reach/dialog/styles.css";
+import "./Rodal.css";
+
 
 
 
@@ -13,7 +13,7 @@ class ImagePanel extends Component {
       this.state= {
         visible: false,
         image:'',
-        filter: "all"
+        filter:"all"
 
       };
 
@@ -57,11 +57,12 @@ class ImagePanel extends Component {
 
         <div className= "container">
 
-        <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} height="380" width="290">
+        <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} className="rodal-image-gallery" height="380" width="292">
                 <div>
+                <div> </div>
                 <p> </p>
                 <img src={"assets/images/"+this.state.image} alt="Gallery" />
-                <p>Hello you </p>
+                <p>Rooftops & Gardens </p>
                 </div>
         </Rodal>
 
@@ -98,43 +99,43 @@ const imagesToFilter = [
 
   {
     id: 1,
-    filter: 'ourmeat',
-    images: "Gallery_1.jpg"
+    filter:'ourmeat',
+    images:"Gallery_1.jpg"
   },
 
   {
     id: 2,
-    filter: 'ourmeat',
-    images: "Gallery_6.jpg"
+    filter:'ourmeat',
+    images:"Gallery_6.jpg"
   },
   {
     id: 3,
-    filter: 'ourmeat',
-    images: "Gallery_3.jpg"
+    filter:'ourmeat',
+    images:"Gallery_3.jpg"
   },
   {
     id: 4,
-    filter: 'wines',
-    images: "Gallery_4.jpg"
+    filter:'wines',
+    images:"Gallery_4.jpg"
   },
   {
     id: 5,
-    filter: 'wines',
-    images: "Gallery_5.jpg"
+    filter:'wines',
+    images:"Gallery_5.jpg"
   },
   {
     id: 6,
-    filter: 'tradition',
-    images: "Gallery_6.jpg"
+    filter:'tradition',
+    images:"Gallery_6.jpg"
   },
   {
     id: 7,
-    filter: 'tradition',
-    images: "Gallery_3.jpg"
+    filter:'tradition',
+    images:"Gallery_3.jpg"
   },
   {
     id: 8,
-    filter: 'tradition',
-    images: "Gallery_4.jpg"
+    filter:'tradition',
+    images:"Gallery_4.jpg"
   },
 ];

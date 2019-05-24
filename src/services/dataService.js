@@ -2,28 +2,14 @@ import * as firebase from 'firebase';
 
 export default class DataService {
 
-  static async getAvailableRoomsByDates(userbook) {
-  console.log("userbook: ", userbook)
+  static async getAvailableTables() {
   const db = firebase.firestore();
   let results = [];
 
   try {
     const querySnapshot = await db.collection('bookTable').get();
-    let tableUnavailable = 0;
     querySnapshot.forEach(doc => {
-      const objectResult = {available: false, ...doc.data()}
-
-      objectResult.book.forEach(book => {
-        if(book.inputDate.timestamp == userbook.inputDate.timestamp)
-           {
-            tableUnavailable++;
-        }
-      })
-
-      objectResult.id = doc.id;
-      if(tableUnavailable != objectResult.inputDate){
-        objectResult.available = true
-      }
+      const objectResult = doc.data()
 
       results.push(objectResult);
     })

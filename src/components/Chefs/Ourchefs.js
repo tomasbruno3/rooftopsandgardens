@@ -47,7 +47,7 @@ render () {
           <div className="team-box text-center">
             <img src="assets/images/ChefSumiller.jpg" alt="Team" />
             <div className="team-content">
-              <h4>LIONEL MENDES</h4>
+              <h4>JAVIER MENDES</h4>
               <h6>Sumellier</h6>
               <ul>
                 <li><a href="#" title="Facebook"><i className="fa fa-facebook"></i></a></li>
@@ -60,7 +60,7 @@ render () {
           <div className="team-box text-center">
             <img src="assets/images/ChefSumiller.jpg" alt="Team" />
             <div className="team-content">
-              <h4>LIONEL MENDES</h4>
+              <h4>JAVIER MENDES</h4>
               <h6>Sumellier</h6>
               <ul>
                 <li><a href="#" title="Facebook"><i className="fa fa-facebook"></i></a></li>

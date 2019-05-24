@@ -9,7 +9,8 @@ export const ButtonContainer = styled.button`
   color: #c59d5f;
 
   border-radius: 0.5rem;
-  margin-top: 20px;
+
+  margin-top: 40px;
   outline-color: red;
   cursor: pointer;
   display: inline-block;

@@ -469,21 +469,35 @@
     }
 }
 
+.rodal-image-gallery {
+ box-shadow: 10px 10px 8px #888888;
+
+}
+.rodal-image-gallery p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1.20px;
+}
+
+.rodal-image-gallery img {
+margin-top: 15px;
+
+
+}
+
 .rodal-door-leave {
     -webkit-animation: rodal-door-leave both;
     animation: rodal-door-leave both;
 }
 
-
-
-.rodal-content p {
+/* .rodal-content p {
 	font-family: 'Raleway';
 	color: black;
-  padding-bottom: 15px;
 }
 .rodal-content h1{
 	font-family: 'Raleway';
-	font-size: 22px;
+	font-size: 21px;
 	font-weight: 700;
 	color: black;
 }
@@ -492,4 +506,4 @@
 	font-size: 16px;
 	font-weight: 400;
 	color: black;
-}
+} */

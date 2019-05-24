@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Open Presentation PDF
 
-## Available Scripts
+## ABOUT THIS PROYECT
 
-In the project directory, you can run:
+R&G  es un servicio de reservas excluisvas para grupos que quieran disfrutar  una auténtica experiencia de lo que es, y significa, un Asado Argentino.
 
-### `npm start`
+Se sabe de la calidad de las carnes Argentinas, pero acá no se trata simplemente de ir a comer carnes ar cocinadas en esta modalidad, el objetivo es esta puesto en la reunión en sí, en el encuentro, en recrear el ritual que significa en argentina realizar un Asado.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Es algo especial, es algo íntimo, comunmente entre amigos, colegas o familias, dónde alguien se postula como El Asador y convoca a un encuentro.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+El evento suele durar varias horas, la gente va llegando de a poco, se prende el fuego, y se comienzan a cocinar las carnes a su tiempo. El cuentro transcurre entorno a la parrilla, dónde el Asador hace su trabajo, es algo dinámico, se suele comenzar de pie, la gente circula, luego se pasa a la mesa, y asi el evento se desarrolla en diferentes etapas. Se pueden dar interacciones grupales o individuales.
 
-### `npm test`
+El evento siempre concluye con un “Aplauso al Asador”quién convocó el evento, y deleitó a sus comenzales.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Por eso la idea de R&G es recrear este espíruto, el verdadero espíritu de un Asado Argentino.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### `Web Deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://rooftops-and-gardens.firebaseapp.com/
 
-### `npm run eject`
+### `PAYPALl`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://developer.paypal.com/developer/accounts/
+https://www.paypal.com/

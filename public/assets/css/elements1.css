@@ -570,7 +570,7 @@
 }
 .menu-item h3 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: bold;
 	width: 53%;
 	float: left;
@@ -585,7 +585,7 @@
 .menu-item h3 > span {
 	color: #777777;
 	font-family: 'Lato', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 0.48px;
 	text-transform: none;
@@ -701,6 +701,13 @@
 	background-color: #fff;
 	color: #c59d5f;
 }
+.input-group .form-control .datepicker {
+	height: 46px !important;
+}
+
+
+
+
 /* - Event Section */
 .latest-events-section {
 	margin-top: 80px;
@@ -898,18 +905,21 @@
 .gallery-category ul li {
 	margin: 0 12px 6px;
 }
-.gallery-category ul li a {
+.gallery-category ul li span {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.56px;
 	text-decoration: none;
+	cursor: pointer;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
 	-o-transition: all 1s ease 0s;
 	transition: all 1s ease 0s;
 }
+
+
 .gallery-category ul li a:hover,
 .gallery-category ul li a.active {
 	color: #c59d5f;
@@ -1710,7 +1720,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+
 }
 
 /* -  max-width: 360 */
@@ -1723,4 +1733,18 @@
 	.header_s .top-header1 .top-left span a i {
 		margin-right: 5px;
 	}
+}
+
+
+
+
+.react-datepicker {
+	width: 300px;
+}
+.react-datepicker__month-container {
+	width: 100%
+}
+.react-datepicker__month-container .react-datepicker__day,
+.react-datepicker__month-container .react-datepicker__day-name {
+	width: 39px;
 }

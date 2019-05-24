@@ -9,7 +9,9 @@ import Rodal from 'rodal';
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
 import "./Rodal.css";
-
+import DatePicker from 'react-datepicker';
+import './react-datepicker.css';
+// import "react-datepicker/dist/react-datepicker.css";
 
 
 
@@ -27,8 +29,8 @@ class FormBook extends Component {
             visible1: false,
             visible2: false,
             showCloseButton: true,
-            closeMaskOnClick:true
-
+            closeMaskOnClick:true,
+            dateReserved: []
 
 
       };
@@ -48,6 +50,11 @@ class FormBook extends Component {
       this.setState({ visible2: false });
   }
 
+  handleChange = (date) => {
+      this.setState({
+        inputDate: date
+      });
+    }
 
 
 
@@ -80,6 +87,16 @@ if (this.props.profile.isLoaded && !this.props.profile.isEmpty) {
     }
   }
 
+async componentDidMount (){
+    const tables = await DataService.getAvailableTables()
+    const dateReserved = tables.map((table)=>{
+      return new Date(table.inputDate)
+    })
+    this.setState({
+      dateReserved
+    })
+  console.log(dateReserved)
+}
 
 
 componentDidUpdate(prevProps){
@@ -128,7 +145,28 @@ render () {
           <div className="col-md-6 col-sm-6 col-xs-6 form-group">
             <div className="input-group">
               <span className="input-group-addon" id="basic-addon4"><i className="fa fa-clock-o"></i></span>
-              <input onChange={this.inputBookChange} type="Date" name='inputDate' value={this.state.inputDate} className="form-control" placeholder="Choose a Date *" aria-describedby="basic-addon1"></input>
+              {
+                //<input onChange={this.inputBookChange} type="Date" name='inputDate' value={this.state.inputDate} className="form-control" placeholder="Choose a Date *" aria-describedby="basic-addon1"></input>
+              }
+              <DatePicker className="form-control datepicker"
+
+                  selected={this.state.inputDate}
+                  onChange={this.handleChange}
+                  excludeDates={this.state.dateReserved}
+                  minDate={new Date()}
+                  placeholderText="Choose a Date * "
+                  popperModifiers={{
+      offset: {
+        enabled: true,
+        offset: '5px, 10px'
+      },
+      preventOverflow: {
+        enabled: true,
+        escapeWithReference: false, // force popper to stay in viewport (even when input is scrolled out of view)
+        boundariesElement: 'viewport'
+      }
+    }}
+                   />
             </div>
           </div>
           <div className="col-md-12 col-sm-12 col-xs-12 send-btn">

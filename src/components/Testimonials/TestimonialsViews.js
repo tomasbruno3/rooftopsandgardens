@@ -33,25 +33,25 @@ render () {
           <Slider {...settings}>
             <div className="carousel-inner" role="listbox">
               <div className="item active">
-                <p>These days are all Happy and Free. These days are all share them with me oh baby. Come and listen to a story about a man named Jed - a poor mountaineer barely kept his family fed. Here's the story of a lovely lady who was bringing up three very lovely girls.</p>
+                <p>Gauchito Gil is one of the foremost figures in Argentine popular culture. The stories that make up his lore are varied and compelling, and have cemented Gil’s reputation in the country’s folklore. A farmer, a bandit, a deserter, a lover, Gauchito Gil is the revered cowboy saint of the popular classes. Let’s find out why.</p>
 
-                <h5>- Jhone Dheve</h5>
+                <h5> Gauchito Gil</h5>
               </div>
             </div>
 
             <div className="carousel-inner" role="listbox">
               <div className="item active">
-                <p>These days are all Happy and Free. These days are all share them with me oh baby. Come and listen to a story about a man named Jed - a poor mountaineer barely kept his family fed. Here's the story of a lovely lady who was bringing up three very lovely girls.</p>
+                <p>Gauchito Gil is one of the foremost figures in Argentine popular culture. The stories that make up his lore are varied and compelling, and have cemented Gil’s reputation in the country’s folklore. A farmer, a bandit, a deserter, a lover, Gauchito Gil is the revered cowboy saint of the popular classes. Let’s find out why.</p>
 
-                <h5>- Jhone Dheve</h5>
+                <h5>Gauchito Gil</h5>
               </div>
             </div>
 
             <div className="carousel-inner" role="listbox">
               <div className="item active">
-                <p>These days are all Happy and Free. These days are all share them with me oh baby. Come and listen to a story about a man named Jed - a poor mountaineer barely kept his family fed. Here's the story of a lovely lady who was bringing up three very lovely girls.</p>
+                <p>Gauchito Gil is one of the foremost figures in Argentine popular culture. The stories that make up his lore are varied and compelling, and have cemented Gil’s reputation in the country’s folklore. A farmer, a bandit, a deserter, a lover, Gauchito Gil is the revered cowboy saint of the popular classes. Let’s find out why.</p>
 
-                <h5>- Jhone Dheve</h5>
+                <h5>Gauchito Gil</h5>
               </div>
             </div>
 
